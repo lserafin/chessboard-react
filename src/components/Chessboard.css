@@ -86,3 +86,10 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+#gameinput {
+  width: 797px;
+  height: 50px;
+  float: left;
+  margin-top: 5px;
+}
