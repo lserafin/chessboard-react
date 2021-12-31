@@ -60,6 +60,7 @@ export const Chessboard = () => (
       chess_ids.map((item, index) => {
         return (
           <Square
+            key={item + "_" + row}
             color={(index + indexRow) % 2 ? "black" : "white"}
             id={item + "_" + row}
             chesspiece={getPiceInfo(item, row)?.chesspiece}
